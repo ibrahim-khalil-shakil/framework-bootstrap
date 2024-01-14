@@ -1,0 +1,294 @@
+
+body {
+    background-color: #F8F9FA;
+}
+
+/* Top Menu */
+
+.navbar{
+    background-color: #4877FB;
+}
+
+.topmenu{
+    background-color: #4877FB;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar ul li a{
+    font-size: 17px;
+}
+
+.navbar ul li a:hover{
+    color: #fff !important;
+    transform: scale(1.2);
+}
+
+.firstpage h1{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.firstpage p{
+    color: rgba(255, 255, 255, 0.70);
+}
+
+.firstpage .btn{
+background-color: rgba(255, 255, 255, 0.30);
+color: #fff;
+font-weight: 500;
+}
+
+.firstpage .btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #4877FB;
+    font-weight: 500;
+}
+
+.firstpage img{
+    width: 85%;
+}
+
+
+/* Cards */
+
+.cards .card-icon{
+   font-size: 40px; 
+   color: #4877FB;
+}
+
+.cards .card h5 {
+    background-color: #aaaaaa;
+    height: 20px; width: 20px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.cards .card:hover{
+    box-sizing: border-box !important;
+    border: 1px #4877FB solid;
+    top: -10px;
+    transition: .5s;
+}
+
+.cards .card:hover h5{
+    background-color: #4877FB;
+}
+
+.cards .card h4{
+    height: 75px;
+}
+
+.cards .card h4 a{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Features */
+
+.features h2{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #4877FB;
+}
+
+.features h5{
+    background-color: #24B800;
+    height: 40px; width: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.features h3{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #24B800;
+}
+
+.features .btn{
+    background-color: rgba(37, 184, 0, 0.25);
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #24B800;
+}
+
+.features .btn:hover{
+    background-color: #24B800;
+    color: #fff;
+}
+/* Part-2 */
+.part2{
+    background-color: #EFEFEF;
+}
+
+
+/* Testimonials */
+
+.testimonials h2{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #4877FB;
+}
+
+
+/* Carousel */
+
+#myslide .card  p{
+    font-size: 14px;
+}
+
+#myslide h6{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 14.5px;
+}
+
+.carousel-indicators{
+    bottom: -50px;
+}
+
+
+/* Pricing Plan */
+
+.pricing h2{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #4877FB;
+}
+
+.pricing .card span{
+    font-size: 13px;
+    color: black;
+}
+
+.pricing .card:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}
+
+.pricing .card ul li{
+    text-align: left;
+}
+
+.pricing .btn{
+    background-color: rgba(72, 120, 251, 0.288);
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #4877FB;
+}
+.pricing .btn:hover{
+    background-color: #4877FB;
+    color: #fff;
+}
+
+.pricing .green h2{
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: #24B800;
+}
+.pricing .green .btn{
+    background-color: rgba(37, 184, 0, 0.25);
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #24B800;
+}
+.pricing .green .btn:hover{
+    background-color: #24B800;
+    color: #fff;
+}
+
+.pricing ul{
+    list-style: none;
+}
+
+.pricing ul li::before {
+    content: "\2713\0020";
+    color: #24B800;
+}
+
+/* Let's get to work */
+
+.work{
+    background-color: #4877FB;
+}
+
+.work .btn{
+    background-color: rgba(255, 255, 255, 0.253);
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.work .btn:hover{
+    background-color: #fff;
+    color: #4877FB;
+}
+
+.work h3{
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.work p{
+    color: rgba(255, 255, 255, 0.795);
+}
+
+
+/* Footer */
+
+.footer h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.footer span{
+    color: #24B800;
+}
+
+.footer ul li a{
+    padding-left: 0 !important;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer .icons li{
+    background-color: rgba(0, 0, 0, 0.493) !important;
+    height: 30px; width: 30px; line-height: 30px;
+    margin: 0 2px;
+    border-radius: 50%;
+}
+
+.footer .icons li a{
+     color: #fff;
+}
+
+.footer .icons li:hover{
+    background-color: #24B800 !important;
+    transform: scale(1.1);
+}
+
+/* Copyright */
+
+.copyright a{
+    text-decoration: none;
+    color: #24B800;
+}
